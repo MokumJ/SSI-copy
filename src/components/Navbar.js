@@ -5,7 +5,7 @@ const StyledNavbar = styled.div`
 border-bottom: 1px solid;
 width: auto;
 text-align: center;
-padding-bottom: 20px;
+padding-bottom: 50px;
 `
 
 export default function Navbar() {

@@ -6,6 +6,7 @@ const StyledFlag = styled.div`
   min-height: 38vh;
   border: 2px solid;
   margin-top: 35px;
+  background-color: #0ea47c;
 `
 
 export default function Flag() {

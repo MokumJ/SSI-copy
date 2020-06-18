@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Flag from "../components/Flag";
+import BottomFlag from "../components/BottomFlag";
+import "../index.css";
 
 const Section = styled.div`
 background-color: #eeeeee;
@@ -14,11 +16,9 @@ line-height: 1.85714285714286;
 
 const Container = styled.div`
   display: block;
-  display: flex;
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  display: flex;
 `
 const Box = styled.div`
   width: 940px;
@@ -26,6 +26,9 @@ const Box = styled.div`
   border: 2px solid;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 15px;
+  display: block;
+  background-color: #ffffff;
 `
 
 export default function Home() {
@@ -35,8 +38,11 @@ export default function Home() {
     <Section >
       <Container>
         <Box />
+        <Box />
+        <Box />
       </Container>
     </Section>
+    <BottomFlag />
     </Layout>
     </div>
 }
