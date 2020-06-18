@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <StyledNavbar>
       <div className="nav-container">
-        <img src={logo} alt="logo" widht="215" height="88" />
+        <img src={logo} alt="logo" width="215" height="88" />
         <nav className="menu">
           <ul>
             <li>

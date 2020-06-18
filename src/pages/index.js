@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Layout from "../components/Layout";
 import Flag from "../components/Flag";
 import BottomFlag from "../components/BottomFlag";
-import "../index.css";
+import "../global.css";
 
 const Section = styled.div`
 background-color: #eeeeee;
