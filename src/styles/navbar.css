@@ -1,0 +1,38 @@
+.nav-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0ea47c;
+}
+
+li {
+  margin: 30px 10px;
+}
+
+li > a {
+  padding: 10px;
+}
+
+img {
+  padding: 1em 0;
+}
