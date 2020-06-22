@@ -5,7 +5,7 @@ const StyledFooter = styled.div`
 text-align: center;
 padding-bottom: 100px;
 border-top: 1px solid;
-background-color: #444444;
+background-color: #3a3a3a;
 `
 
 export default function Footer() {

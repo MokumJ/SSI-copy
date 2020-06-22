@@ -24,7 +24,7 @@ const Container = styled.div`
 `
 const Box = styled.div`
   width: 940px;
-  height: ${props => props.height ? props.height : '400px'};
+  height: ${props => (props.height ? props.height : "400px")};
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
@@ -35,6 +35,10 @@ const Box = styled.div`
 export default function Home() {
   return (
     <div>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+      </style>
       <Layout>
         <Flag />
         <Section>
@@ -75,6 +79,12 @@ export default function Home() {
             </Box>
             <Box>
               <div className="box-1">
+                <img
+                  src={placeholder}
+                  alt="placeholder"
+                  width="376"
+                  height="400"
+                />
                 <div className="text-container-1">
                   <h3>How to flip the switch?</h3>
                   <div className="elementor-divider">
@@ -111,12 +121,6 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-                <img
-                  src={placeholder}
-                  alt="placeholder"
-                  width="376"
-                  height="400"
-                />
               </div>
             </Box>
             <Box height="507px">
@@ -164,17 +168,13 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                    <p>
-                      SSI works in emerging economies and OECD countries. Key
-                      expertise areas include (digital) health, access to
-                      medicines, (fin) tech, financial inclusion, and water.
-                    </p>
+                  <p>
+                    SSI works in emerging economies and OECD countries. Key
+                    expertise areas include (digital) health, access to
+                    medicines, (fin) tech, financial inclusion, and water.
+                  </p>
                 </div>
-                <img
-                  src={placeholder}
-                  alt="placeholder"
-                  width="376"
-                />
+                <img src={placeholder} alt="placeholder" width="376" />
               </div>
             </Box>
           </Container>
