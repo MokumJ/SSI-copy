@@ -1,5 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react"
+import styled from "styled-components"
+import "../styles/bottomflag.css"
 
 const StyledBottomFlag = styled.div`
   width: auto;
@@ -11,6 +12,13 @@ const StyledBottomFlag = styled.div`
 
 export default function Flag() {
   return (
-    <StyledBottomFlag>This is a flag</StyledBottomFlag>
+    <StyledBottomFlag>
+      <div className="bf-container">
+        <div className="bf-oneline">
+          We have the potential and the moral obligation to change business to a
+          global force for good.
+        </div>
+      </div>
+    </StyledBottomFlag>
   )
 }
