@@ -10,16 +10,6 @@ const StyledNavbar = styled.div`
   text-align: center;
 `
 
-const MainNav = styled.div`
-  margin-left: auto;
-  height: 100%;
-  display: block;
-  padding-left: 15px;
-  vertical-align: top;
-  text-align: center;
-  display: flex;
-`
-
 export default function Navbar() {
   return (
     <StyledNavbar>

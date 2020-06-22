@@ -14,7 +14,7 @@ const StyledFlag = styled.div`
 export default function Flag() {
   return (
     <StyledFlag>
-      <img src={flagImg} alt="flag-image" className="flag-img"/>
+      <img src={flagImg} alt="flag" className="flag-img"/>
     </StyledFlag>
   )
 }
