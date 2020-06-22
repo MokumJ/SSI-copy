@@ -24,7 +24,7 @@ const Container = styled.div`
 `
 const Box = styled.div`
   width: 940px;
-  height: 400px;
+  height: ${props => props.height ? props.height : '400px'};
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 15px;
@@ -119,7 +119,64 @@ export default function Home() {
                 />
               </div>
             </Box>
-            <Box />
+            <Box height="507px">
+              <div className="box-1">
+                <div className="text-container-1">
+                  <h3>SSI Service offering</h3>
+                  <div className="elementor-divider">
+                    <span className="elementor-divider-seperator">
+                      __________
+                    </span>
+                  </div>
+                  <p>
+                    SSI supports entrepreneurial NGOs, businesses, donors and
+                    investment funds in:
+                  </p>
+                  <div className="ul-container">
+                    <ul>
+                      <li>
+                        <strong>
+                          Market access, business development, scaling
+                        </strong>{" "}
+                        – strategy development and implementation
+                      </li>
+                      <li>
+                        <strong>Fundraising</strong> – for developing, piloting
+                        and scaling projects
+                      </li>
+                      <li>
+                        <strong>(Blended) investment vehicles</strong> –
+                        structuring and raising
+                      </li>
+                      <li>
+                        <strong>Public- private partnership</strong> –
+                        development, management
+                      </li>
+                      <li>
+                        <strong>
+                          Stakeholder management, advocacy, public affairs
+                        </strong>{" "}
+                        – to create supportive ecosystems
+                      </li>
+                      <li>
+                        <strong>Event organization and moderation</strong> – to
+                        foster collective intelligence and generate exposure.
+                      </li>
+                    </ul>
+                  </div>
+                    <p>
+                      SSI works in emerging economies and OECD countries. Key
+                      expertise areas include (digital) health, access to
+                      medicines, (fin) tech, financial inclusion, and water.
+                    </p>
+                </div>
+                <img
+                  src={placeholder}
+                  alt="placeholder"
+                  width="376"
+                />
+              </div>
+            </Box>
           </Container>
         </Section>
         <BottomFlag />
