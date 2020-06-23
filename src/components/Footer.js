@@ -8,10 +8,11 @@ padding-top: 35px;
 border-top: 1px solid;
 background-color: #3a3a3a;
 color: #fff;
+font-weight: 100px;
 `
 
 export default function Footer() {
   return (
-    <StyledFooter>© 2020 Smeets Social Impact | Disclaimer</StyledFooter>
+    <StyledFooter><p>© 2020 Smeets Social Impact | Disclaimer</p></StyledFooter>
   )
 }
