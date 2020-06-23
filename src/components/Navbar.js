@@ -14,17 +14,25 @@ export default function Navbar() {
   return (
     <StyledNavbar>
       <div className="nav-container">
-        <img src={logo} alt="logo" width="215" height="88" />
+        <Link to="/">
+          <img src={logo} alt="logo" width="215" height="88" />{" "}
+        </Link>
         <nav className="menu">
           <ul>
             <li>
-              <Link to="/" activeStyle={{color: '#0ea47c'}}>HOME</Link>
+              <Link to="/" activeStyle={{ color: "#0ea47c" }}>
+                HOME
+              </Link>
             </li>
             <li>
-              <Link to="#" activeStyle={{color: '#0ea47c'}}>ABOUT</Link>
+              <Link to="/about/" activeStyle={{ color: "#0ea47c" }}>
+                ABOUT
+              </Link>
             </li>
             <li>
-              <Link to="#" activeStyle={{color: '#0ea47c'}}>CONTACT</Link>
+              <Link to="#" activeStyle={{ color: "#0ea47c" }}>
+                CONTACT
+              </Link>
             </li>
           </ul>
         </nav>
