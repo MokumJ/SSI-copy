@@ -15,7 +15,7 @@ export default function Navbar() {
     <StyledNavbar>
       <div className="nav-container">
         <Link to="/">
-          <img src={logo} alt="logo" width="215" height="88" />{" "}
+          <img src={logo} alt="logo" width="215" height="88" className="logo"/>{" "}
         </Link>
         <nav className="menu">
           <ul>
