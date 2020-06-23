@@ -7,7 +7,7 @@
 }
 
 .intro-text {
-  margin: 0px 60px;
+  margin: 0px 40px 0px 60px;
   line-height: 1.85714285714286;
   color: #7A7979;
   font-family: "Roboto", open sans;
@@ -30,5 +30,12 @@
 .intro-container > img {
   max-width: 328.91px;
   max-height: 421px;
-  margin-top: 38px; 
+  margin-top: 46px; 
+}
+
+.about-divider {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #31A069
 }

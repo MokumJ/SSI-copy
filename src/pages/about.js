@@ -52,6 +52,7 @@ export default function About() {
           <img src={femke} alt="femke portrait" />
         </div>
       </div>
+      <hr className="about-divider" />
     </Layout>
   )
 }
