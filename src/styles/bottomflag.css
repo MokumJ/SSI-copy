@@ -7,8 +7,14 @@
   letter-spacing: 4.7px;
 }
 
+.bf-text-container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
 .bf-container { 
   text-align: center;
+  padding: 120px 50px 60px 50px;
 }
 
 .femke > img {
