@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/Layout"
 import femke from "../images/femke-portrait.jpg"
 import "../styles/about.css"
