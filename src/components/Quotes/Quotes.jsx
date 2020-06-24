@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { css, cx } from "emotion"
+import { css } from "emotion"
 
 const Quote = () => {
   const quotes = {
@@ -29,8 +29,9 @@ const Quote = () => {
 
   const [active, setActive] = useState(0)
 
-  const handleSetClick = () => {
-    console.log("hello")
+  const handleSetClick = (event) => {
+    setCurrent(quotes[event.target.getAttribute('data-quote')]);
+    setActive(event.target.getAttribute("data-quote"));
   }
 
   return (
@@ -41,6 +42,8 @@ const Quote = () => {
         align-items: center;
         margin: 40px auto;
         max-width: 700px;
+        padding: 40px;
+        border: 1px solid lightgrey;
 
         p {
           text-align: center;
