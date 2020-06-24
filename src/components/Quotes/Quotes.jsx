@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { css, cx } from "emotion"
 
 const Quote = () => {
   const quotes = {
@@ -29,14 +30,62 @@ const Quote = () => {
   const [active, setActive] = useState(0)
 
   const handleSetClick = () => {
-    console.log('hello')
+    console.log("hello")
   }
-  
+
   return (
-    <div>
+    <div
+      className={css`
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto;
+        max-width: 700px;
+
+        p {
+          text-align: center;
+          margin-bottom: 20px;
+          color: #7a7979;
+          font-family: "Roboto", open sans;
+          font-size: 15px;
+        }
+      `}
+    >
       <p>{current.client}</p>
       <p>{current.quote}</p>
-      <div>
+      <div
+        className={css`
+          display: flex;
+
+          span {
+            height: 20px;
+            width: 20px;
+            margin: 0 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+          }
+
+          span::before {
+            content: "";
+            height: 6px;
+            width: 6px;
+            background-color: #d4d4d4;
+            border-radius: 50%;
+            transition: background-color 0.3 ease;
+          }
+
+          span:hover::before {
+            background-color: #45454d;
+          }
+
+          span[data-quote="${active}"]::before {
+            background-color: #45454d;
+          }
+
+        `}
+      >
         {Object.keys(quotes).map(index => (
           <span
             onClick={event => handleSetClick(event)}
