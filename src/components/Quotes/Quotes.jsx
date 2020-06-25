@@ -44,6 +44,7 @@ const Quote = () => {
         max-width: 700px;
         padding: 40px;
         border: 1px solid lightgrey;
+        box-shadow: 0 0 3px #ccc;
 
         p {
           text-align: center;
