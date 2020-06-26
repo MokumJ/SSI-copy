@@ -30,7 +30,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="#" activeStyle={{ color: "#0ea47c" }}>
+              <Link to="/contact/" activeStyle={{ color: "#0ea47c" }}>
                 CONTACT
               </Link>
             </li>
