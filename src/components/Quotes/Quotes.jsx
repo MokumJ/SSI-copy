@@ -59,7 +59,8 @@ const Quote = () => {
           font-size: 15px;
         }
       `}
-    > {console.log(current.img)}
+    > 
+      {/**Why does current.img not work? How to animate the transition of p */}
       <img src={placeholder} alt="portrait" height="150px" width="150px"  />
       <p>{current.client}</p>
       <p>{current.quote}</p>
