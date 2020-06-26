@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Layout from "../components/Layout"
 import femke from "../images/femke-portrait.jpg"
 import "../styles/about.css"
+import Quote from "../components/Quotes/Quotes"
 
 export default function About() {
   return (
@@ -53,6 +54,7 @@ export default function About() {
         </div>
       </div>
       <hr className="about-divider" />
+      <Quote />
     </Layout>
   )
 }
