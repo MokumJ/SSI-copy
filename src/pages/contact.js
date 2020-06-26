@@ -33,7 +33,9 @@ export default function Contact() {
         >
           <p>
             {/**Why is this strong tag not thicker? 
-             * How to import widget icons for contact details? */}
+             * How to import widget icons for contact details? 
+             * Already installed react-icons.
+             * How to delete dependecies? */}
             <strong>Smeets Social Impact</strong> is based near Amsterdam, the
             Netherlands. Curious to meet? Let’s chat in person, on Zoom, phone
             or email. Just send a message and I will get back to you shortly.{" "}
