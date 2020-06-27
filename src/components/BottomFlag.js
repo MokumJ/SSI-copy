@@ -19,7 +19,7 @@ export default function Flag() {
             a global force for good.
           </div>
           <div className="femke">
-            <img src={femke} width="70px" height="70px" />
+            <img src={femke} width="70px" height="70px" alt="femke-portrait"/>
           </div>
           <div className="femke-name">
             <p>Femke Smeets</p>
