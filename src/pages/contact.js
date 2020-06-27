@@ -13,11 +13,12 @@ export default function Contact() {
       <div
         className={css`
           display: flex;
-          margin: 65px;
+          margin: 65px auto;
           line-height: 2.1em;
           color: #7A7979;
           font-family: "Roboto", open sans;
           font-size: 15px;
+          max-width: 1140px;
 
           img {
             margin-right: 125px;
