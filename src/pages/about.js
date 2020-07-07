@@ -4,6 +4,10 @@ import femke from "../images/femke-portrait.jpg"
 import "../styles/about.css"
 import Quote from "../components/Quotes/Quotes"
 
+const data = {
+  alinea1: "",
+}
+
 export default function About() {
   return (
     <Layout>
